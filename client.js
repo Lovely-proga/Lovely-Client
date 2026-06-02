@@ -145,7 +145,7 @@
 
     let totalPlaytime = loadData('playtime', 0);
     let sessionStart = Date.now();
-    let menuKeybind = loadData('menuKey', 'ShiftRight');
+    let menuKeybind = loadData('menuKey', 'Numpad5');
 
     let isKeystrokesActive = false;
     let keystrokescontainer = null;
