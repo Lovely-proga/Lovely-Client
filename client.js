@@ -101,7 +101,7 @@
 
     let clicks = 0;
     const CPS_MIN = 11;
-    const CPS_MAX = 13;
+    const CPS_MAX = 9999; // hahaha :)
     const CHECK_INTERVAL = 1000;
     const COOLDOWN = 2000;
 
@@ -183,7 +183,7 @@
     }
     @keyframes fadeOut {
         to {opacity: 0;}
-    }
+    }//
 
     .keystroke-key {
         position: absolute;
