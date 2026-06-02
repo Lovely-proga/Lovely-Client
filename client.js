@@ -145,7 +145,7 @@
 
     let totalPlaytime = loadData('playtime', 0);
     let sessionStart = Date.now();
-    let menuKeybind = loadData('menuKey', '\KeyP');
+    let menuKeybind = loadData('menuKey', '\\');
 
     let isKeystrokesActive = false;
     let keystrokescontainer = null;
